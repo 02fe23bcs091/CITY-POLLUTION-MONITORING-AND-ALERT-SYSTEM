@@ -1,7 +1,7 @@
 
-## Danish's Portfolio
+## Hemantha Kaval K T's Portfolio
 
-### Hello, I'm Danish Ahmed Darga 👋
+### Hello, I'm Hemantha Kaval K T 👋
 
 I am passionate about technology and problem-solving. Here's a glimpse of my work:
 
@@ -32,9 +32,9 @@ Pollution Monitoring System - We have designed an approach that constantly monit
 <dt>Course Code</dt>
 <dd>Course Code Placeholder</dd>
 <dt>Name</dt>
-<dd><p style="color: red;">Danish Ahmed Darga</p></dd>
+<dd><p style="color: red;">Hemantha Kaval K T</p></dd>
 <dt>SRN</dt>
-<dd>02FE23BCS095</dd>
+<dd>02FE23BCS091</dd>
 <dt>Course Instructo</dt>
 <dd>Vaishali Parab Maam</dd>
 <dt>University</dt>
