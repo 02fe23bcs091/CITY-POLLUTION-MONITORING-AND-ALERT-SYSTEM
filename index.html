@@ -12,14 +12,14 @@
         }
 
         /* Background gradient animation */
-        .wrapper {
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4);
+        body {
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4, #ffdde1);
             background-size: 300% 300%;
             animation: gradientAnimation 8s ease infinite;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
         }
 
         @keyframes gradientAnimation {
@@ -28,14 +28,17 @@
             100% { background-position: 0% 50%; }
         }
 
-        header h1 {
+        header {
             text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
             color: #ffffff;
             margin-bottom: 10px;
         }
 
         header p {
-            text-align: center;
             color: #ffffff;
             font-size: 16px;
         }
@@ -43,6 +46,9 @@
         section {
             text-align: center;
             color: #ffffff;
+            margin-bottom: 30px;
+            width: 100%;
+            max-width: 800px;
         }
 
         section h2 {
@@ -73,48 +79,67 @@
             color: #ffffff;
             font-style: italic;
         }
+
+        dl {
+            text-align: left;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        dt {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        dd {
+            margin: 0 0 10px 20px;
+        }
     </style>
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <h1>Hello, I'm Hemantha Kaval K T 👋</h1>
-            <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
-        </header>
-        <section>
-            <h2>🛠 Projects</h2>
-            <ul>
-                <li><strong>Project 1</strong>: CITY POLLUTION MONITORING AND ALERT SYSTEM</li>
-            </ul>
-            <h2>🚀 Skills</h2>
-            <ul>
-                <li>C++, Python, C</li>
-                <li>Data Structures and Algorithms</li>
-            </ul>
-            <h2>🌐 Find Me Online</h2>
-            <ul>
-                <li><a href="https://github.com/your-github-HK-KT" target="_blank">GitHub</a></li>
-                <li><a href="https://linkedin.com/in/Hemantha Kaval K T" target="_blank">LinkedIn</a></li>
-            </ul>
-            <h2>City Pollution Monitoring And Alert System</h2>
-            <dl>
-                <dt>Course Name</dt>
-                <dd>Algorithmic Problem Solving</dd>
-                <dt>Course Code</dt>
-                <dd>24ECSC205</dd>
-                <dt>Name</dt>
-                <dd>Hemantha Kaval K T</dd>
-                <dt>SRN</dt>
-                <dd>02FE23BCS091</dd>
-                <dt>Course Instructor</dt>
-                <dd>Prof. Vaishali Parab</dd>
-                <dt>University</dt>
-                <dd>KLE Technological University Belgaum Campus</dd>
-                <dt>Portfolio Topic/Domain</dt>
-                <dd>Google</dd>
-            </dl>
-            <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
-        </section>
-    </div>
+    <header>
+        <h1>Hello, I'm Hemantha Kaval K T 👋</h1>
+        <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
+    </header>
+    <section>
+        <h2>🛠 Projects</h2>
+        <ul>
+            <li><strong>Project 1</strong>: CITY POLLUTION MONITORING AND ALERT SYSTEM</li>
+        </ul>
+    </section>
+    <section>
+        <h2>🚀 Skills</h2>
+        <ul>
+            <li>C++, Python, C</li>
+            <li>Data Structures and Algorithms</li>
+        </ul>
+    </section>
+    <section>
+        <h2>🌐 Find Me Online</h2>
+        <ul>
+            <li><a href="https://github.com/your-github-HK-KT" target="_blank">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/Hemantha Kaval K T" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+    <section>
+        <h2>City Pollution Monitoring And Alert System</h2>
+        <dl>
+            <dt>Course Name</dt>
+            <dd>Algorithmic Problem Solving</dd>
+            <dt>Course Code</dt>
+            <dd>24ECSC205</dd>
+            <dt>Name</dt>
+            <dd>Hemantha Kaval K T</dd>
+            <dt>SRN</dt>
+            <dd>02FE23BCS091</dd>
+            <dt>Course Instructor</dt>
+            <dd>Prof. Vaishali Parab</dd>
+            <dt>University</dt>
+            <dd>KLE Technological University Belgaum Campus</dd>
+            <dt>Portfolio Topic/Domain</dt>
+            <dd>Google</dd>
+        </dl>
+    </section>
+    <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
 </body>
 </html>
