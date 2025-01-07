@@ -130,6 +130,7 @@
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             font-size: 1.1em;
+            line-height: 1.6;
         }
     </style>
 </head>
@@ -162,24 +163,6 @@
         </ul>
     </section>
 
-    <section>
-        <h2>📜 Course Details</h2>
-        <dl>
-            <dt>Course Name</dt>
-            <dd>Algorithmic Problem Solving</dd>
-            <dt>Course Code</dt>
-            <dd>24ECSC205</dd>
-            <dt>Name</dt>
-            <dd>Hemantha Kaval K T</dd>
-            <dt>SRN</dt>
-            <dd>02FE23BCS091</dd>
-            <dt>Course Instructor</dt>
-            <dd>Prof. Vaishali Parab</dd>
-            <dt>University</dt>
-            <dd>KLE Technological University Belgaum Campus</dd>
-        </dl>
-    </section>
-
     <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
 
     <div class="project-section">
@@ -201,19 +184,34 @@
 
             switch (type) {
                 case 'air':
-                    content = "Air pollution refers to harmful substances released into the atmosphere that negatively impact health and the environment.";
+                    content = `Air Pollution Monitoring:
+- *Algorithms Used*: Sensor data processing using Kalman Filters for noise reduction.
+- Clustering algorithms like K-Means for hotspot identification.
+- Threshold-based alert systems using real-time air quality data.`;
                     break;
                 case 'soil':
-                    content = "Soil pollution is caused by contaminants such as chemicals and waste that degrade soil quality and harm ecosystems.";
+                    content = `Soil Pollution Monitoring:
+- *Algorithms Used*: Soil composition analysis using regression models.
+- Time-series analysis for detecting gradual degradation.
+- Anomaly detection to identify unusual contamination levels.`;
                     break;
                 case 'land':
-                    content = "Land pollution is the destruction of the earth's surface caused by human activities such as deforestation and improper waste disposal.";
+                    content = `Land Pollution Monitoring:
+- *Algorithms Used*: Image processing algorithms like Convolutional Neural Networks (CNN) for waste detection.
+- GIS-based analysis for mapping pollution zones.
+- Resource optimization algorithms for waste disposal.`;
                     break;
                 case 'water':
-                    content = "Water pollution occurs when harmful substances contaminate water bodies, affecting aquatic life and human health.";
+                    content = `Water Pollution Monitoring:
+- *Algorithms Used*: Sensor fusion techniques for integrating pH, turbidity, and chemical data.
+- Machine learning models for predicting contamination levels.
+- Dynamic thresholding for real-time alerts.`;
                     break;
                 case 'sewage':
-                    content = "Sewage pollution results from untreated wastewater entering natural water systems, causing environmental and health hazards.";
+                    content = `Sewage Pollution Monitoring:
+- *Algorithms Used*: Flow analysis using graph-based algorithms.
+- Predictive analytics for overflow risk management.
+- Pattern recognition for identifying harmful discharge.`;
                     break;
                 default:
                     content = "Click on a pollution type to see details.";
