@@ -11,14 +11,15 @@
             font-family: Arial, sans-serif;
         }
 
-        /* Enhanced background with blue shades */
+        /* New vibrant gradient background */
         body {
-            background: linear-gradient(135deg, #1e3c72, #2a5298, #6dd5ed, #ffffff);
-            background-size: 400% 400%;
-            animation: gradientAnimation 12s ease infinite;
+            background: linear-gradient(135deg, #ff7eb3, #ff758c, #a29bfe, #81ecec);
+            background-size: 300% 300%;
+            animation: gradientAnimation 10s ease infinite;
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             padding: 20px;
         }
 
@@ -86,24 +87,25 @@
             max-width: 600px;
         }
 
-        dl {
+        /* Centered and styled Course Details */
+        .course-details {
             text-align: left;
             margin: 0 auto;
             max-width: 600px;
             padding: 20px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             color: #ffffff;
         }
 
-        dt {
+        .course-details dt {
             font-weight: bold;
             margin-top: 10px;
             font-size: 1.2em;
         }
 
-        dd {
+        .course-details dd {
             margin: 0 0 10px 20px;
             font-size: 1.1em;
         }
@@ -115,28 +117,8 @@
         <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
     </header>
     <section>
-        <h2>🛠 Projects</h2>
-        <ul>
-            <li><strong>Project 1</strong>: CITY POLLUTION MONITORING AND ALERT SYSTEM</li>
-        </ul>
-    </section>
-    <section>
-        <h2>🚀 Skills</h2>
-        <ul>
-            <li>C++, Python, C</li>
-            <li>Data Structures and Algorithms</li>
-        </ul>
-    </section>
-    <section>
-        <h2>🌐 Find Me Online</h2>
-        <ul>
-            <li><a href="https://github.com/your-github-HK-KT" target="_blank">GitHub</a></li>
-            <li><a href="https://linkedin.com/in/Hemantha Kaval K T" target="_blank">LinkedIn</a></li>
-        </ul>
-    </section>
-    <section>
         <h2>📜 Course Details</h2>
-        <dl>
+        <dl class="course-details">
             <dt>Course Name</dt>
             <dd>Algorithmic Problem Solving</dd>
             <dt>Course Code</dt>
