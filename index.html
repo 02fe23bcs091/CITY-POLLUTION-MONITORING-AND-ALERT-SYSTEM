@@ -4,29 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        /* Reset body style */
+        /* General Styles */
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        /* Background gradient animation */
-        body {
-            background: linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899, #f472b6);
-            background-size: 300% 300%;
-            animation: gradientAnimation 12s ease infinite;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #ffffff;
             display: flex;
             flex-direction: column;
             align-items: center;
             padding: 20px;
-            color: white;
-        }
-
-        @keyframes gradientAnimation {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
         }
 
         header {
@@ -35,100 +24,91 @@
         }
 
         header h1 {
-            color: #ffffff;
-            margin-bottom: 10px;
             font-size: 2.5em;
+            font-weight: 600;
         }
 
         header p {
-            color: #ffffff;
             font-size: 1.2em;
+            font-weight: 300;
         }
 
         section {
-            text-align: center;
-            color: #ffffff;
             margin-bottom: 30px;
-            width: 100%;
+            text-align: center;
             max-width: 800px;
         }
 
         section h2 {
-            margin-top: 20px;
             font-size: 1.8em;
+            margin-bottom: 15px;
+            font-weight: 600;
         }
 
         ul {
-            list-style-type: none;
+            list-style: none;
             padding: 0;
         }
 
         ul li {
-            margin: 5px 0;
             font-size: 1.1em;
+            margin: 5px 0;
         }
 
         a {
-            color: #ffffff;
+            color: #ffed4a;
             text-decoration: none;
-            font-weight: bold;
+            font-weight: 600;
         }
 
         a:hover {
-            text-decoration: underline;
+            color: #ffffff;
         }
 
         blockquote {
-            margin: 20px auto;
-            font-size: 1.2em;
-            color: #ffffff;
             font-style: italic;
-        }
-
-        dl {
-            text-align: left;
-            margin: 0 auto;
-            max-width: 600px;
-        }
-
-        dt {
-            font-weight: bold;
-            margin-top: 10px;
-        }
-
-        dd {
-            margin: 0 0 10px 20px;
+            font-size: 1.2em;
+            margin: 20px auto;
+            text-align: center;
         }
 
         /* Project Overview Button */
         .project-overview-btn {
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: #ffed4a;
             color: #000;
-            border: none;
             padding: 15px 30px;
             font-size: 1.2em;
-            border-radius: 8px;
+            font-weight: 600;
+            border: none;
+            border-radius: 10px;
             cursor: pointer;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.3s ease, transform 0.2s ease;
+            transition: all 0.3s ease;
+            margin-top: 20px;
         }
 
         .project-overview-btn:hover {
-            background-color: rgba(255, 255, 255, 1);
+            background-color: #ffd700;
             transform: scale(1.05);
         }
 
+        /* Project Overview Section */
         .project-section {
             display: none;
             flex-direction: column;
             align-items: center;
             text-align: center;
-            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
         }
 
         .project-title {
             font-size: 2em;
             margin-bottom: 20px;
+            font-weight: 600;
+            color: #ffed4a;
         }
 
         .menu {
@@ -140,26 +120,45 @@
 
         .menu-item {
             background-color: rgba(255, 255, 255, 0.1);
-            color: white;
             padding: 10px 20px;
             border-radius: 8px;
+            font-weight: 400;
+            color: white;
             cursor: pointer;
-            transition: background-color 0.3s ease;
             text-decoration: none;
+            transition: all 0.3s ease;
         }
 
         .menu-item:hover {
             background-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
         }
 
         .menu-item.action {
             background-color: #34d399;
             color: #000;
-            font-weight: bold;
+            font-weight: 600;
         }
 
         .menu-item.action:hover {
             background-color: #10b981;
+        }
+
+        /* Course Details Section */
+        dl {
+            text-align: left;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        dt {
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        dd {
+            margin-left: 20px;
+            font-weight: 300;
         }
     </style>
 </head>
@@ -207,8 +206,6 @@
             <dd>Prof. Vaishali Parab</dd>
             <dt>University</dt>
             <dd>KLE Technological University Belgaum Campus</dd>
-            <dt>Portfolio Topic/Domain</dt>
-            <dd>Google</dd>
         </dl>
     </section>
 
