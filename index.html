@@ -11,15 +11,14 @@
             font-family: Arial, sans-serif;
         }
 
-        /* New vibrant gradient background */
+        /* Enhanced background gradient animation */
         body {
-            background: linear-gradient(135deg, #ff7eb3, #ff758c, #a29bfe, #81ecec);
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899, #f472b6);
             background-size: 300% 300%;
-            animation: gradientAnimation 10s ease infinite;
+            animation: gradientAnimation 12s ease infinite;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
             padding: 20px;
         }
 
@@ -31,18 +30,20 @@
 
         header {
             text-align: center;
-            margin-bottom: 30px;
-            color: #ffffff;
+            margin-bottom: 20px;
         }
 
         header h1 {
-            font-size: 2.5em;
+            color: #ffffff;
             margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 2.5em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
         }
 
         header p {
+            color: #ffffff;
             font-size: 1.2em;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
         }
 
         section {
@@ -51,11 +52,16 @@
             margin-bottom: 30px;
             width: 100%;
             max-width: 800px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
 
         section h2 {
+            margin-top: 20px;
             font-size: 1.8em;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
         }
 
         ul {
@@ -64,7 +70,7 @@
         }
 
         ul li {
-            margin: 5px 0;
+            margin: 10px 0;
             font-size: 1.2em;
         }
 
@@ -79,46 +85,77 @@
         }
 
         blockquote {
-            margin: 20px auto;
-            font-size: 1.2em;
+            margin: 30px auto;
+            font-size: 1.4em;
             color: #ffffff;
             font-style: italic;
             text-align: center;
-            max-width: 600px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
         }
 
-        /* Centered and styled Course Details */
-        .course-details {
+        dl {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             text-align: left;
             margin: 0 auto;
-            max-width: 600px;
             padding: 20px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 15px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        dt {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #ffffff;
+            margin: 10px 0 5px 0;
+        }
+
+        dd {
+            margin: 0 0 15px 20px;
+            font-size: 1em;
             color: #ffffff;
         }
 
-        .course-details dt {
-            font-weight: bold;
-            margin-top: 10px;
-            font-size: 1.2em;
-        }
-
-        .course-details dd {
-            margin: 0 0 10px 20px;
-            font-size: 1.1em;
+        /* Center the "Course Details" section */
+        .course-details {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Hello, I'm Hemantha Kaval K T 👋</h1>
+        <h1>Hello, I'm Hemantha Kaval K T</h1>
         <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
     </header>
     <section>
+        <h2>🛠 Projects</h2>
+        <ul>
+            <li><strong>Project 1</strong>: CITY POLLUTION MONITORING AND ALERT SYSTEM</li>
+        </ul>
+    </section>
+    <section>
+        <h2>🚀 Skills</h2>
+        <ul>
+            <li>C++, Python, C</li>
+            <li>Data Structures and Algorithms</li>
+        </ul>
+    </section>
+    <section>
+        <h2>🌐 Find Me Online</h2>
+        <ul>
+            <li><a href="https://github.com/your-github-HK-KT" target="_blank">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/Hemantha Kaval K T" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+    <section class="course-details">
         <h2>📜 Course Details</h2>
-        <dl class="course-details">
+        <dl>
             <dt>Course Name</dt>
             <dd>Algorithmic Problem Solving</dd>
             <dt>Course Code</dt>
