@@ -1,238 +1,3 @@
-[12:59 am, 8/1/2025] Hemantha Kaval K T: <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        /* General Styles */
-        body {
-            margin: 0;
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #6a11cb, #2575fc);
-            color: #ffffff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        header h1 {
-            font-size: 2.5em;
-            font-weight: 600;
-        }
-
-        header p {
-            font-size: 1.2em;
-            font-weight: 300;
-        }
-
-        section {
-            margin-bottom: 30px;
-            text-align: center;
-            max-width: 800px;
-        }
-
-        section h2 {
-            font-size: 1.8em;
-            margin-bottom: 15px;
-            font-weight: 600;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        ul li {
-            font-size: 1.1em;
-            margin: 5px 0;
-        }
-
-        a {
-            color: #ffed4a;
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        a:hover {
-            color: #ffffff;
-        }
-
-        blockquote {
-            font-style: italic;
-            font-size: 1.2em;
-            margin: 20px auto;
-            text-align: center;
-        }
-
-        /* Project Overview Button */
-        .project-overview-btn {
-            background-color: #ffed4a;
-            color: #000;
-            padding: 15px 30px;
-            font-size: 1.2em;
-            font-weight: 600;
-            border: none;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            margin-top: 20px;
-        }
-
-        .project-overview-btn:hover {
-            background-color: #ffd700;
-            transform: scale(1.05);
-        }
-
-        /* Project Overview Section */
-        .project-section {
-            display: none;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            border-radius: 15px;
-            margin-top: 30px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        .project-title {
-            font-size: 2em;
-            margin-bottom: 20px;
-            font-weight: 600;
-            color: #ffed4a;
-        }
-
-        .menu {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .menu-item {
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 10px 20px;
-            border-radius: 8px;
-            font-weight: 400;
-            color: white;
-            cursor: pointer;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-
-        .menu-item:hover {
-            background-color: rgba(255, 255, 255, 0.2);
-            transform: translateY(-3px);
-        }
-
-        .menu-item.action {
-            background-color: #34d399;
-            color: #000;
-            font-weight: 600;
-        }
-
-        .menu-item.action:hover {
-            background-color: #10b981;
-        }
-
-        /* Course Details Section */
-        dl {
-            text-align: left;
-            margin: 0 auto;
-            max-width: 600px;
-        }
-
-        dt {
-            font-weight: 600;
-            margin-top: 10px;
-        }
-
-        dd {
-            margin-left: 20px;
-            font-weight: 300;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Hello, I'm Hemantha Kaval K T</h1>
-        <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
-    </header>
-
-    <section>
-        <h2>🛠 Projects</h2>
-        <ul>
-            <li><strong>Project 1</strong>: CITY POLLUTION MONITORING AND ALERT SYSTEM</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>🚀 Skills</h2>
-        <ul>
-            <li>C++, Python, C</li>
-            <li>Data Structures and Algorithms</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>🌐 Find Me Online</h2>
-        <ul>
-            <li><a href="https://github.com/your-github-HK-KT" target="_blank">GitHub</a></li>
-            <li><a href="https://linkedin.com/in/Hemantha Kaval K T" target="_blank">LinkedIn</a></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>📜 Course Details</h2>
-        <dl>
-            <dt>Course Name</dt>
-            <dd>Algorithmic Problem Solving</dd>
-            <dt>Course Code</dt>
-            <dd>24ECSC205</dd>
-            <dt>Name</dt>
-            <dd>Hemantha Kaval K T</dd>
-            <dt>SRN</dt>
-            <dd>02FE23BCS091</dd>
-            <dt>Course Instructor</dt>
-            <dd>Prof. Vaishali Parab</dd>
-            <dt>University</dt>
-            <dd>KLE Technological University Belgaum Campus</dd>
-        </dl>
-    </section>
-
-    <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
-
-    <button class="project-overview-btn" onclick="showProjectOverview()">Project Overview</button>
-
-    <div class="project-section" id="projectSection">
-        <div class="project-title">CITY POLLUTION MONITORING AND ALERT SYSTEM</div>
-        <div class="menu">
-            <div class="menu-item">Air Pollution</div>
-            <div class="menu-item">Soil Pollution</div>
-            <div class="menu-item">Land Pollution</div>
-            <div class="menu-item">Water Pollution</div>
-            <div class="menu-item">Sewage Pollution</div>
-            <a href="#" class="menu-item action">View Code</a>
-            <a href="#" class="menu-item action">Description</a>
-        </div>
-    </div>
-
-    <script>
-        function showProjectOverview() {
-            document.getElementById('projectSection').style.display = 'flex';
-        }
-    </script>
-</body>
-</html>
 [1:04 am, 8/1/2025] Hemantha Kaval K T: <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -402,6 +167,261 @@
             padding: 20px;
             background-color: rgba(0, 0, 0, 0.3);
             border-radius: 15px;
+        }
+
+        dt {
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        dd {
+            margin-left: 20px;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello, I'm Hemantha Kaval K T</h1>
+        <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
+    </header>
+
+    <section>
+        <h2>🛠 Projects</h2>
+        <ul>
+            <li><strong>Project 1</strong>: CITY POLLUTION MONITORING AND ALERT SYSTEM</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>🚀 Skills</h2>
+        <ul>
+            <li>C++, Python, C</li>
+            <li>Data Structures and Algorithms</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>🌐 Find Me Online</h2>
+        <ul>
+            <li><a href="https://github.com/your-github-HK-KT" target="_blank">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/Hemantha-Kaval-K-T" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📜 Course Details</h2>
+        <dl>
+            <dt>Course Name</dt>
+            <dd>Algorithmic Problem Solving</dd>
+            <dt>Course Code</dt>
+            <dd>24ECSC205</dd>
+            <dt>Name</dt>
+            <dd>Hemantha Kaval K T</dd>
+            <dt>SRN</dt>
+            <dd>02FE23BCS091</dd>
+            <dt>Course Instructor</dt>
+            <dd>Prof. Vaishali Parab</dd>
+            <dt>University</dt>
+            <dd>KLE Technological University Belgaum Campus</dd>
+        </dl>
+    </section>
+
+    <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
+
+    <button class="project-overview-btn" onclick="window.location.href='project-overview.html'">Project Overview</button>
+
+    <div class="project-section" id="projectSection">
+        <div class="project-title">CITY POLLUTION MONITORING AND ALERT SYSTEM</div>
+        <div class="menu">
+            <div class="menu-item">Air Pollution</div>
+            <div class="menu-item">Soil Pollution</div>
+            <div class="menu-item">Land Pollution</div>
+            <div class="menu-item">Water Pollution</div>
+            <div class="menu-item">Sewage Pollution</div>
+            <a href="#" class="menu-item action">View Code</a>
+            <a href="#" class="menu-item action">Description</a>
+        </div>
+    </div>
+
+    <script>
+        // This function is no longer needed since the button redirects to another page
+    </script>
+</body>
+</html>
+[1:07 am, 8/1/2025] Hemantha Kaval K T: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc, #ff00b0); /* Blue, Purple, and Pink */
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            height: 100vh;
+            justify-content: center;
+            background-attachment: fixed; /* Smooth scrolling effect */
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 90%;
+        }
+
+        header h1 {
+            font-size: 3em;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.5em;
+            font-weight: 300;
+            margin-top: 10px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            text-align: center;
+            max-width: 800px;
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        a {
+            color: #ffed4a;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        blockquote {
+            font-style: italic;
+            font-size: 1.5em;
+            margin: 20px auto;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+        }
+
+        /* Project Overview Button */
+        .project-overview-btn {
+            background-color: #ffed4a;
+            color: #000;
+            padding: 20px 40px;
+            font-size: 1.5em;
+            font-weight: 600;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 30px;
+        }
+
+        .project-overview-btn:hover {
+            background-color: #ffd700;
+            transform: scale(1.1);
+        }
+
+        /* Project Section */
+        .project-section {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            max-width: 90%;
+        }
+
+        .project-title {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 600;
+            color: #ffed4a;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .menu-item {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 15px 25px;
+            border-radius: 8px;
+            font-weight: 500;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .menu-item:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
+        }
+
+        .menu-item.action {
+            background-color: #34d399;
+            color: #000;
+            font-weight: 600;
+        }
+
+        .menu-item.action:hover {
+            background-color: #10b981;
+        }
+
+        /* Course Details Section */
+        dl {
+            text-align: left;
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
 
         dt {
