@@ -89,10 +89,10 @@
             color: #ffed4a;
         }
 
-        /* Dynamic Content Section */
-        .project-section {
+        /* Course Details Section */
+        .course-details-section {
             text-align: center;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.15); /* Light minimal background */
             padding: 25px;
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -100,11 +100,29 @@
             max-width: 800px;
         }
 
-        .project-title {
-            font-size: 2.2em;
-            margin-bottom: 20px;
+        .course-details-section h2 {
+            font-size: 2em;
+            color: #6a11cb;
+            margin-bottom: 15px;
             font-weight: 600;
-            color: #ff6347;
+        }
+
+        dl {
+            text-align: left;
+            margin: 0 auto;
+            font-size: 1.1em;
+            color: #ffffff;
+        }
+
+        dt {
+            font-weight: 600;
+            margin-top: 10px;
+            color: #ffed4a;
+        }
+
+        dd {
+            margin-left: 20px;
+            font-weight: 300;
         }
 
         .menu {
@@ -211,6 +229,26 @@
         <div id="contentBox" class="content-box">Click on a pollution type to see details.</div>
     </div>
 
+    <div class="course-details-section">
+        <h2>📜 Course Details</h2>
+        <dl>
+            <dt>Course Name</dt>
+            <dd>Algorithmic Problem Solving</dd>
+            <dt>Course Code</dt>
+            <dd>24ECSC205</dd>
+            <dt>Name</dt>
+            <dd>Hemantha Kaval K T</dd>
+            <dt>SRN</dt>
+            <dd>02FE23BCS091</dd>
+            <dt>Course Instructor</dt>
+            <dd>Prof. Vaishali Parab</dd>
+            <dt>University</dt>
+            <dd>KLE Technological University Belgaum Campus</dd>
+            <dt>Portfolio Topic/Domain</dt>
+            <dd>Google</dd>
+        </dl>
+    </div>
+
     <script>
         function showContent(type) {
             const contentBox = document.getElementById('contentBox');
@@ -221,38 +259,4 @@
                     content = `Air Pollution Monitoring:
 - *Algorithms Used*: Sensor data processing using Kalman Filters for noise reduction.
 - Clustering algorithms like K-Means for hotspot identification.
-- Threshold-based alert systems using real-time air quality data.`;
-                    break;
-                case 'soil':
-                    content = `Soil Pollution Monitoring:
-- *Algorithms Used*: Soil composition analysis using regression models.
-- Time-series analysis for detecting gradual degradation.
-- Anomaly detection to identify unusual contamination levels.`;
-                    break;
-                case 'land':
-                    content = `Land Pollution Monitoring:
-- *Algorithms Used*: Image processing algorithms like Convolutional Neural Networks (CNN) for waste detection.
-- GIS-based analysis for mapping pollution zones.
-- Resource optimization algorithms for waste disposal.`;
-                    break;
-                case 'water':
-                    content = `Water Pollution Monitoring:
-- *Algorithms Used*: Sensor fusion techniques for integrating pH, turbidity, and chemical data.
-- Machine learning models for predicting contamination levels.
-- Dynamic thresholding for real-time alerts.`;
-                    break;
-                case 'sewage':
-                    content = `Sewage Pollution Monitoring:
-- *Algorithms Used*: Flow analysis using graph-based algorithms.
-- Predictive analytics for overflow risk management.
-- Pattern recognition for identifying harmful discharge.`;
-                    break;
-                default:
-                    content = "Click on a pollution type to see details.";
-            }
-
-            contentBox.textContent = content;
-        }
-    </script>
-</body>
-</html>
+- Threshold-based alert systems using real-time air
